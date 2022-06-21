@@ -94,8 +94,8 @@ body {
 
 .logo {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     margin-right: 92px;
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -126,6 +126,7 @@ body {
 } 
 
 .nav-link {
+    padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -153,12 +154,11 @@ body {
 }
 
 .header-contact-item:not(:last-child) {
-    padding-top: 32px;
-    padding-bottom: 32px;
     margin-right: 50px;
 }
 
 .contacts-link {
+    padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -286,6 +286,7 @@ body {
 
 .team {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-title {
@@ -299,7 +300,6 @@ body {
 }
 
 .team-txt {
-    margin-bottom: 30px;
     border: none;
     border-radius: 4px;
     color: var(--grey-color);
